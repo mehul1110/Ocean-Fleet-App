@@ -42,4 +42,19 @@ public class VesselUtil {
             vesselList.add(vessel);
         }
     }
+
+    /**
+     * Retrieves a vessel by its ID. search is case-sensitive.
+     * 
+     * @param vesselId ID of the vessel to search for
+     * @return Vessel object if found, null otherwise
+     */
+    public Vessel getVesselById(String vesselId) {
+        for (Vessel vessel : vesselList) {
+            if (vessel.getVesselId().equals(vesselId)) {
+                return vessel;
+            }
+        }
+        return null;
+    }
 }
