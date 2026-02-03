@@ -3,6 +3,11 @@ import java.util.Scanner;
 
 /**
  * UserInterface class for console-based interaction.
+ * 
+ * OOPS Principle Applied: Single Responsibility Principle
+ * This class is solely responsible for handling user input and displaying
+ * output,
+ * delegating the business logic to the VesselUtil class.
  */
 public class UserInterface {
     public static void main(String[] args) {

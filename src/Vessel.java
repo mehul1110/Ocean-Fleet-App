@@ -1,6 +1,10 @@
 /**
  * Vessel Model Class
  * Represents a cargo vessel with its performance attributes.
+ * 
+ * OOPS Principle Applied: Encapsulation
+ * The data fields are private and accessed via public getters and setters,
+ * ensuring data integrity and hiding the internal state of the object.
  */
 public class Vessel {
     private String vesselId;
@@ -13,10 +17,10 @@ public class Vessel {
      */
     public Vessel() {
     }
-
-    /**
+     
+    /**   
      * Parameterized constructor (four-argument constructor)
-     * 
+     *    
      * @param vesselId Unique ID of the vessel
      * @param vesselName Name of the vessel
      * @param averageSpeed Average speed in knots

@@ -3,6 +3,10 @@ import java.util.List;
 
 /**
  * Utility class to manage vessel performance records.
+ * 
+ * OOPS Principle Applied: Separation of Concerns & Modularity
+ * This class handles the logic for managing the vessel collection,
+ * separating it from the data model (Vessel) and the user interface (UserInterface).
  */
 public class VesselUtil {
     private List<Vessel> vesselList;
